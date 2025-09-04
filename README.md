@@ -24,14 +24,15 @@ The app uses a **pre-trained machine learning model** trained on the **Cars24 da
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
+```plaintext
 
 ├── car_price.py # Streamlit app code
 ├── cars24-car-price.csv # Dataset
 ├── car_pred_model # Pre-trained ML model (pickle file)
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+```
 ---
 
 1️⃣ Clone the repository
