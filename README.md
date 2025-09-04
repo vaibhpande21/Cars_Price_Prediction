@@ -36,14 +36,16 @@ The app uses a **pre-trained machine learning model** trained on the **Cars24 da
 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/vaibhavpande21//car_price_prediction.git
-cd genai-rag-chatbot
+cd car_price_prediction
 ```
 
 2️⃣ Create a virtual environment
 ```bash
-python -m venv .venv  
-source .venv/bin/activate   # Mac/Linux  
-.venv\Scripts\activate      # Windows
+python -m venv mlops_env
+ 
+# Activate it  
+source mlops_env/bin/activate   # Mac/Linux  
+mlops_env\Scripts\activate      # Windows
 ```
 
 3️⃣ Install dependencies
@@ -54,7 +56,7 @@ pip install -r requirements.txt
 ▶️ Running the App
 Start the Streamlit app:
 ```bash
-streamlit run app.py
+streamlit run car_price.py
 ```
 ---
 
@@ -71,10 +73,10 @@ streamlit run app.py
 
 - The dataset (cars24-car-price.csv) contains car listings from Cars24.
   
-Features include:
+ Features include:
  year, km_driven, fuel_type, seller_type, transmission_type, mileage, engine, max_power, seats
 
-Target variable:
+ Target variable:
  selling_price
 
 
