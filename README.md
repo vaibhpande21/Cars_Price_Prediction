@@ -37,7 +37,7 @@ The app uses a **pre-trained machine learning model** trained on the **Cars24 da
 
 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/vaibhavpande21//Cars_Price_Prediction.git
+git clone https://github.com/vaibhpande21//Cars_Price_Prediction.git
 cd Cars_Price_Prediction
 ```
 
