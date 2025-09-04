@@ -32,11 +32,12 @@ The app uses a **pre-trained machine learning model** trained on the **Cars24 da
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
+---
 
 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/vaibhavpande21//car_price_prediction.git
-cd car_price_prediction
+git clone https://github.com/vaibhavpande21//Cars_Price_Prediction.git
+cd Cars_Price_Prediction
 ```
 
 2️⃣ Create a virtual environment
